@@ -6,7 +6,7 @@ function Character({title, name, image}) {
     <div>
       <h2>Personaje {title}</h2>
       <p>{name}</p>
-      <img src={image} alt={name} />
+      <img src={image} alt={name} width={150} height={150} />
     </div>
     </>
   );
