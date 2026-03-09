@@ -3,8 +3,6 @@ import {useState, useEffect} from 'react';
 const urlPokemon = 'https://pokeapi.co/api/v2/pokemon/1';
 const urlRick = 'https://rickandmortyapi.com/api/character/1';
 
-const pokemon = useFetch(urlPokemon);
-const rick = useFetch(urlRick);
 
 const useFetch = (url) => {
     const [pokemon, setPokemon] = useState(null);
