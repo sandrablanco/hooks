@@ -7,6 +7,7 @@ import useFetch from './hooks/useFecth';
 function App() {
 
  const {pokemon, rick} = useFetch();
+ 
   if (!pokemon || !rick) {
     return <div>Cargando...</div>;
   }
